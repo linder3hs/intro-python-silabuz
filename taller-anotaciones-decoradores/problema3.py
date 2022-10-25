@@ -5,26 +5,15 @@ def duplicar_letras() -> list:
 
     res: list = []
     count: int = 1
-    operando = 0
 
     for p in duplicando_palabra:
         if count > cantidad_inicial:
-            operando += count
-            res.insert(operando, p)
-            operando = count
+            res.insert(res.index(p) + 1, p)
         else:
-            res.insert(count, p)
-
+            res.append(p)
         count += 1
 
     return res
-    # palabra: str = input("Ingrese una palabra: ")
-    # res: list = []
-    # for p in palabra:
-    #     res.append(p)
-    #     res.append(p)
-
-    # return res
 
 
 print(duplicar_letras())
