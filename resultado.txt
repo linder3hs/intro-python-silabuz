@@ -1,0 +1,5 @@
+Promedio de edades: 29.69911764705882
+Cantidad de mujeres: 314
+Cantidad de varones: 577
+Cantidad de sobrevivientes: 342
+Cantidad de fallecidos: 549
